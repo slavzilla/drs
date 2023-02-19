@@ -27,15 +27,16 @@ mr Slavko Kovačević:
 
 - Kolokvijum nosi **50 poenta**.
 - Završni ispit nosi **50 poenta**.
-- Ocjene se formiraju po pravilu:
-50 ≤ E < 60
-60 ≤ D < 70
-...
-90 ≤ A ≤ 100
+- Ocjene se formiraju po pravilu:  
+50 ≤ E < 60  
+60 ≤ D < 70  
+...  
+90 ≤ A ≤ 100  
 
 ### Literatura
 
-<a id="1">[1]</a> S. Đukanović, Java i objektno-orijentisano programiranje, Narodna knjiga, Podgorica, 2021, http://slobodan.ucg.ac.me/books/javaOOP/
-<a id="2">[2]</a> P. Deitel, H. M. Deitel, Java: How to Program, 9th Edition <a id="3">[3]</a> Herbert Schildt, Java The Complete Reference, 11th Edition
+<a id="1">[1]</a> S. Đukanović, Java i objektno-orijentisano programiranje, Narodna knjiga, Podgorica, 2021, http://slobodan.ucg.ac.me/books/javaOOP/  
+<a id="2">[2]</a> P. Deitel, H. M. Deitel, Java: How to Program, 9th Edition  
+<a id="3">[3]</a> Herbert Schildt, Java The Complete Reference, 11th Edition  
 
 
