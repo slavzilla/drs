@@ -11,7 +11,7 @@ Prof. dr Slobodan Đukanović
 - kabinet: 322 (treći sprat)
 - mail: [slobdj@ucg.ac.me](slobdj@ucg.ac.me)
 - konsultacije: utorak, 14-16h
-- 
+
 dr Stefan Vujović:
 - kabinet: Laboratorija za obradu signala
 - mail: [stefanv@ucg.ac.me](stefanv@ucg.ac.me)
