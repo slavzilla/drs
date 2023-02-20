@@ -25,8 +25,8 @@ mr Slavko Kovačević:
 
 ### Organizacija predmeta
 
-- Kolokvijum nosi **50 poenta**.
-- Završni ispit nosi **50 poenta**.
+- Kolokvijum nosi **50 poena**.
+- Završni ispit nosi **50 poena**.
 - Ocjene se formiraju po pravilu:  
 50 ≤ E < 60  
 60 ≤ D < 70  
