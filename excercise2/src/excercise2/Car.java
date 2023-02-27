@@ -4,31 +4,26 @@ public class Car {
 	private String model;
 	private int year;
 	private int capacity;
-	
+
 	private static double taxBase;
-	
-	Car()
-	{
-		//this.model = null;
-		//this.year = 0;
-		//this.capacity = 0;
+
+	Car() {
+		// this.model = null;
+		// this.year = 0;
+		// this.capacity = 0;
 	}
-	
-	Car(String model, int year, int capacity)
-	{
+
+	Car(String model, int year, int capacity) {
 		this.model = model;
 		this.year = year;
 		this.capacity = capacity;
 	}
-	
-	public String toString()
-	{
-		return String.format("%-25s%-15s%-10s\n", year,
-				model, capacity);
+
+	public String toString() {
+		return String.format("%-25s%-15s%-10s\n", year, model, capacity);
 	}
-	
-	public double calculateTax()
-	{
+
+	public double calculateTax() {
 		return taxBase * capacity / 10;
 	}
 
@@ -63,7 +58,5 @@ public class Car {
 	public static void setTaxBase(double taxBase) {
 		Car.taxBase = taxBase;
 	}
-	
-	
 
 }
