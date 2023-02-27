@@ -1,19 +1,19 @@
 package excercise2;
 
-public class Automobile {
+public class Car {
 	private String model;
 	private int year;
 	private int capacity;
 	
 	private static double taxBase;
 	
-	Automobile()
+	Car()
 	{
 		//this.model = null;
 		//this.year = 0;
 		//this.capacity = 0;
 	}
-	Automobile(String model, int year, int capacity)
+	Car(String model, int year, int capacity)
 	{
 		this.model = model;
 		this.year = year;
@@ -60,7 +60,7 @@ public class Automobile {
 	}
 
 	public static void setTaxBase(double taxBase) {
-		Automobile.taxBase = taxBase;
+		Car.taxBase = taxBase;
 	}
 	
 	
