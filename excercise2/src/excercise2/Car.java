@@ -13,6 +13,7 @@ public class Car {
 		//this.year = 0;
 		//this.capacity = 0;
 	}
+	
 	Car(String model, int year, int capacity)
 	{
 		this.model = model;
