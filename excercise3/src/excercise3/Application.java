@@ -13,18 +13,17 @@ public class Application {
 	public static void main(String[] args) {
 
 		List<String> lines = null;
-		List<String> words = new ArrayList<String>();
+		ArrayList<String> words = new ArrayList<String>();
 
-		// Koristimo klasu Integer, post primitivni tipovi ne mogu biti elementi
-		// ArrayList
-		List<Integer> occurrences = new ArrayList<Integer>();
+		// Koristimo klasu Integer, posto primitivni tipovi ne mogu biti elementi ArrayList
+		ArrayList<Integer> occurrences = new ArrayList<Integer>();
 		int index;
 
 		try {
 			Path path = Paths.get("words.txt");
 			lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 		} catch (IOException e) {
-			System.err.println("Greška prilikom čitanja fajla.");
+			System.err.println("Greska prilikom otvaranja fajla.");
 			System.exit(1);
 		}
 
@@ -46,7 +45,7 @@ public class Application {
 
 		int sortedIndices[] = getSortedIndices(occurrences);
 
-		System.out.printf("%-15s%-5s\n", "Riječ", "Ponavljanja");
+		System.out.printf("%-15s%-5s\n", "Rijeci", "Ponavljanja");
 		System.out.println("_".repeat(30));
 
 		for (int i = 0; i < occurrences.size(); i++) {
@@ -55,7 +54,7 @@ public class Application {
 		}
 	}
 
-	public static int[] getSortedIndices(List<Integer> occurrences) {
+	public static int[] getSortedIndices(ArrayList<Integer> occurrences) {
 
 		int len = occurrences.size();
 		int[] indices = new int[len];

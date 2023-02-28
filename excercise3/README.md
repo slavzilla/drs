@@ -9,11 +9,11 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		List<String> listOfTextLines = null;
+		List<String> lines = null;
 
 		try {
 			Path path = Paths.get("putanja/do/fajla/Rijeci.txt");
-			listOfTextLines = Files.readAllLines(path, StandardCharsets.UTF_8);
+			lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			System.err.println("Greška prilikom čitanja fajla.");
 			System.exit(1);
