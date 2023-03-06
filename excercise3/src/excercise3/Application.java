@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,12 +14,13 @@ public class Application {
 		List<String> lines = null;
 		ArrayList<String> words = new ArrayList<String>();
 
-		// Koristimo klasu Integer, posto primitivni tipovi ne mogu biti elementi ArrayList
+		// Koristimo klasu Integer, posto primitivni tipovi ne mogu biti elementi
+		// ArrayList
 		ArrayList<Integer> occurrences = new ArrayList<Integer>();
 		int index;
 
 		try {
-			Path path = Paths.get("words.txt");
+			Path path = Path.of("words.txt");
 			lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			System.err.println("Greska prilikom otvaranja fajla.");
@@ -60,11 +60,11 @@ public class Application {
 		int[] indices = new int[len];
 		int[] data = new int[len];
 
-		for (int i = 0; i <= len - 1; i++) {
+		for (int i = 0; i < len; i++) {
 			indices[i] = i;
 			data[i] = occurrences.get(i);
 		}
-
+		// Selection sort
 		for (int i = 0; i < len - 1; i++) {
 			// Trazimo najmanji element u nesortiranom nizu
 			int index = i;
@@ -72,13 +72,13 @@ public class Application {
 				if (data[j] > data[index])
 					index = j;
 
-			// Mijenjamo elemente podataka
-			swap(data, i, index);
-
-			// Mijenjamo elemente idneksa
-			swap(indices, i, index);
+			if (i != index) {
+				// Mijenjamo elemente podataka
+				swap(data, i, index);
+				// Mijenjamo elemente indeksa
+				swap(indices, i, index);
+			}
 		}
-
 		return indices;
 	}
 
