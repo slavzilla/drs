@@ -12,7 +12,7 @@ public class Application {
 		List<String> lines = null;
 
 		try {
-			Path path = Paths.get("putanja/do/fajla/Rijeci.txt");
+			Path path = Path.of("putanja/do/fajla/Rijeci.txt");
 			lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			System.err.println("Greška prilikom čitanja fajla.");
