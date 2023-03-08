@@ -25,10 +25,10 @@ public class Application {
 					wordCount++;
 					characterCount = characterCount + s.length();
 
-					if(s.matches("")) //TODO dopisati regularni izraz za recenicu
+					if(s.matches(".*\\.|.*\\?|.*\\!"))
 						sentenceCount++;
 					
-					if(s.matches("")) //TODO dopisati regularni izraz za broj
+					if(s.matches("[+-]?(0|[1-9]\\d*)(\\.\\d+)?"))
 						numberCount++;			
 				}
 			}
