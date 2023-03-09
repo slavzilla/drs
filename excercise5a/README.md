@@ -6,10 +6,10 @@ Kreirati klasu `Application` koja će testirati prethodno kreirane klase. Testir
 Ilustrovati downcasting na primjeru jedne instance klase `Circle`, jedne instance klase `Cylinder` i metode zapremina.  
 Konačno, reference na sve kreirane objekte smjestiti u jedan niz krugovi, proći kroz taj niz i odštampati zapremine svih valjaka i kupa.
 
-<center>
+<div align="center">
 
 | ![5a.svg](5a.svg) | 
 |:--:| 
 | *Slika.1 UML dijagram* |
 
-</center>
+</div>
