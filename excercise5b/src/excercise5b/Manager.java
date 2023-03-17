@@ -28,12 +28,12 @@ public class Manager extends Employee {
 
 	@Override
 	public float amount() {
-		return super.getCoefficient() * super.getMinimumWage() * (1 + bonus + supplement);
+		return getCoefficient() * getMinimumWage() * (1 + bonus + supplement);
 	}
 
 	@Override
 	public String expensePurpose() {
-		return "Plata za rukovodioca: " + super.getName() + " " + super.getSurname();
+		return "Plata za rukovodioca: " + getName() + " " + getSurname();
 	}
 
 }

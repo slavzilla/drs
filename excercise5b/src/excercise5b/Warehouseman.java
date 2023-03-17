@@ -28,13 +28,13 @@ public class Warehouseman extends Employee {
 
 	@Override
 	public float amount() {
-		return super.getCoefficient() * super.getMinimumWage()
+		return getCoefficient() *getMinimumWage()
 				* ((hours < norm) ? (0.8f) : (1 + (hours - norm) / 100.0f));
 	}
 
 	@Override
 	public String expensePurpose() {
-		return "Plata za magacionera: " + super.getName() + " " + super.getSurname();
+		return "Plata za magacionera: " + getName() + " " + getSurname();
 	}
 
 }
