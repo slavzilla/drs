@@ -1,6 +1,6 @@
 ### Pete vježbe, prvi zadatak
 Slika 1. predstavlja UML dijagram na kojem su prikazane klase `Circle` i izvedene klase `Cylinder` i `Cone`. Realizovati ove tri klase u potpunosti, vodeći računa o tome da su svi podaci članovi i metode prikazani na slici. Oznake – i + ispred podataka i metoda označavaju privatno i javno pravo pristupa, respektivno.  
-Statički podatak `totalArea` klase `Circle` sadrži informaciju o površini svih kreiranih objekata (krugova, valjaka i kupa). Voditi računa o tome da se površine objekata mogu mijenjati tokom izvršenja programa.  
+Kod realizacije ovih klasa demonstrirati koncept nepromjenljivosti objekata.  
 Prilikom setovanja visine, povesti računa da unijeta vrijednost mora biti pozitivna. U suprotnom, baciti izuzetak tipa `IllegalArgumentException`.  
 Kreirati klasu `Application` koja će testirati prethodno kreirane klase. Testiranje klasa podrazumijeva kreiranje bar po 2 instance klasa `Circle`, `Cylinder` i `Cone`, i pozivanje realizovanih metoda.  
 Ilustrovati downcasting na primjeru jedne instance klase `Circle`, jedne instance klase `Cylinder` i metode zapremina.  
