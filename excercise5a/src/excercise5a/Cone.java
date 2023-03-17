@@ -22,7 +22,7 @@ public class Cone extends Circle {
 
 	private void setHeight(double height) {
 		if (height < 0)
-			throw new IllegalArgumentException();
+			throw new IllegalArgumentException("The height of the cone is a nonnegative value");
 		this.height = height;
 	}
 
@@ -39,6 +39,7 @@ public class Cone extends Circle {
 		return sqrt(height * height + getRadius() * getRadius());
 	}
 
+	@Override
 	public String toString() {
 		return String.format("Cone centered in %s with height: %f", getCenter(), height);
 	}

@@ -28,6 +28,7 @@ public class Circle {
 		return PI * radius * radius;
 	}
 
+	@Override
 	public String toString() {
 		return String.format("Circle centered in %s with radius: %f", center, radius);
 	}

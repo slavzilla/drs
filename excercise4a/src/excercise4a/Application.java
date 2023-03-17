@@ -16,25 +16,24 @@ public class Application {
 		int numberCount = 0;
 
 		try {
-			BufferedReader a = new BufferedReader(new FileReader(
-					"tekst.txt"));
+			BufferedReader a = new BufferedReader(new FileReader("tekst.txt"));
 
-			while((line = a.readLine()) != null) {
+			while ((line = a.readLine()) != null) {
 				words = line.split("\\s+");
-				for(String s : words) {
+				for (String s : words) {
 					wordCount++;
 					characterCount = characterCount + s.length();
 
-					if(s.matches(".*\\.|.*\\?|.*\\!"))
+					if (s.matches(".*\\.|.*\\?|.*\\!"))
 						sentenceCount++;
-					
-					if(s.matches("[+-]?(0|[1-9]\\d*)(\\.\\d+)?"))
-						numberCount++;			
+
+					if (s.matches("[+-]?(0|[1-9]\\d*)(\\.\\d+)?"))
+						numberCount++;
 				}
 			}
 			a.close();
 
-		} catch(IOException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
