@@ -1,4 +1,4 @@
-### Pete vježbe, prvi zadatak
+### Šeste vježbe
 Slika 1. predstavlja UML dijagram na kojem su prikazane klase `Employee` i izvedene klase `Intern` i `Contractor`. Realizovati ove tri klase u potpunosti, vodeći računa o tome da su svi podaci članovi i metode prikazani na slici. Oznake – i + ispred podataka i metoda označavaju privatno i javno pravo pristupa, respektivno.  
 Uočiti da je metoda `salary` kod klase `Employee` apstraktna.  
 Plata radnika stažiste se računa kao:  
