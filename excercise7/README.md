@@ -1,0 +1,2 @@
+### Sedme vježbe
+Kreirati klasu `Competitor` (takmičar) koja ima podatke članove `name`, `surname`, `medalCount` (broj osvojenih medalja - cio broj) i `yearOfBirth` (godina rođenja - cio broj). Sve takmičare smjestiti u listu i odštampati je pomoću iteratora. Implementirati mehanizme za sortiranje takmičara po broju osvojenih medalja, odnosno po starosti. Demonstrirati eliminaciju ponavljanja elemenata liste i sortiranja upotrebom `TreeSet` kolekcije. 
