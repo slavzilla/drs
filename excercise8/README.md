@@ -3,39 +3,6 @@ Tekstualni fajl vehicles.txt sadrži podatke o automobilima (vidjeti Tabelu 1). 
 Potrebno je:
 - Kreirati klasu `Vehicle` koja će modelovati automobil. Podaci klase su dati u kolonama tabele (`brand`, `model`, `productionYear`, `capacity`, `mileage`, `price`). Klasa treba da sadrži podrazumijevani konstruktor, konstruktor sa svim podacima, inspektore, mutatore i metodu `toString` koja vraća string sa svim podacima o automobilu. U slučaju unosa nedozvoljenih podataka (negativne vrijednosti za kubikažu, kilometražu i cijenu, godište manje od 1950 ili veće od 2023) baciti izuzetak tipa `IllegalArgumentException`.
 
-<style>
-    table {
-        width: 100%;
-        background-color: #ffffff;
-        border-collapse: collapse;
-        border-width: 2px;
-        border-color: #ffffff;
-        border-style: solid;
-        color: #000000;
-    }
-
-    td,
-    th {
-        border-width: 2px;
-        border-color: #ffffff;
-        border-style: solid;
-        text-align: center;
-        padding: 0px;
-    }
-
-    thead {
-        background-color: #ffcc00;
-    }
-
-    th {
-        border-width: 2px;
-        border-color: #ffcc00;
-        border-style: solid;
-        padding: 0px;
-    }
-
-</style>
-
 <table>
         <thead>
             <tr>
