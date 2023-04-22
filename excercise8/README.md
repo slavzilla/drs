@@ -1,7 +1,14 @@
 ### Osme vježbe
 Tekstualni fajl vehicles.txt sadrži podatke o automobilima (vidjeti Tabelu 1). Jedan red fajla predstavlja podatke o jednom automobilu, pri čemu su svaka dva susjedna podatka razdvojena karakterom '#'.  
 Potrebno je:
-- Kreirati klasu `Vehicle` koja će modelovati automobil. Podaci klase su dati u kolonama tabele (`brand`, `model`, `productionYear`, `capacity`, `mileage`, `price`). Klasa treba da sadrži podrazumijevani konstruktor, konstruktor sa svim podacima, inspektore, mutatore i metodu `toString` koja vraća string sa svim podacima o automobilu. U slučaju unosa nedozvoljenih podataka (negativne vrijednosti za kubikažu, kilometražu i cijenu, godište manje od 1950 ili veće od 2023) baciti izuzetak tipa `IllegalArgumentException`.
+- Kreirati klasu `Vehicle` koja će modelovati automobil. Podaci klase su dati u kolonama tabele (`brand`, `model`, `productionYear`, `capacity`, `mileage`, `price`). Klasa treba da sadrži podrazumijevani konstruktor, konstruktor sa svim podacima, inspektore, mutatore i metodu `toString` koja vraća string sa svim podacima o automobilu. U slučaju unosa nedozvoljenih podataka (negativne vrijednosti za kubikažu, kilometražu i cijenu, godište manje od 1950 ili veće od 2023) baciti izuzetak tipa `IllegalArgumentException`.  
+- Otvoriti fajl vehicles.txt i za svaki red fajla kreirati jednu instancu klase `Vehicle`. Kreirane instance smjestiti u kolekciju po želji.  
+- Na osnovu postojeće kolekcije auta, kreirati i odštampati novu kolekciju u kojoj neće biti duplikata marki auta (npr. ako se u kolekciji već nalazi Volkswagen, ne dodavati nove automobile marke Volkswagen).  
+- Koristeći mapu, odrediti i odštampati koliko ima automobila svake marke na sljedeći način:  
+Audi          7  
+BMW           4  
+Dacia         2  
+...  
 
 <div align="center">
 <table>
