@@ -17,6 +17,11 @@ public class Vehicle {
 		setPrice(price);
 	}
 
+	public Vehicle(String[] args) throws IndexOutOfBoundsException {
+		this(args[0], args[1], Integer.parseInt(args[2]), Integer.parseInt(args[3]), Double.parseDouble(args[4]),
+				Integer.parseInt(args[5]));
+	}
+
 	public String getBrand() {
 		return brand;
 	}
