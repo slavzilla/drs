@@ -5,9 +5,9 @@ Potrebno je:
 - Otvoriti fajl vehicles.txt i za svaki red fajla kreirati jednu instancu klase `Vehicle`. Kreirane instance smjestiti u kolekciju po želji.  
 - Na osnovu postojeće kolekcije auta, kreirati i odštampati novu kolekciju u kojoj neće biti duplikata marki auta (npr. ako se u kolekciji već nalazi Volkswagen, ne dodavati nove automobile marke Volkswagen).  
 - Koristeći mapu, odrediti i odštampati koliko ima automobila svake marke na sljedeći način:  
-Audi          7  
-BMW           4  
-Dacia         2  
+Audi 7  
+BMW 4  
+Dacia 2  
 ...  
 
 <div align="center">
