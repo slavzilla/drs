@@ -9,6 +9,7 @@ Anđela Draganić<br/>
 Boris Marković<br/>
 ...
 </div>
+
 Pomoć:  
 - Uočite HTML šablone koji su vezani za ime zaposlenih;  
 - Koristite klase `Matcher` i `Pattern` koje u kombinaciji sa odgovarajućim regularnim izrazom omogućavaju izvlačenje (ekstrakciju) imena i prezimena iz stringova;  
