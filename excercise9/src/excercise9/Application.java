@@ -32,16 +32,13 @@ public class Application {
 				}
 			}
 			input.close();
-
-			// Sortiranje pomocu TreeSet-a, sta ako se dvoje zaposlenih zovu isto?
-			Set<String> hSet = new HashSet<String>(employees);
-			Set<String> names = new TreeSet<String>(new NameComparator());
-			names.addAll(hSet);
+			//sortiranje liste pomocu komparatora
+			employees.sort(new NameComparator());
 
 			// Upis u fajl, false kako ne bi radio nadovezivanje
 			FileWriter output = new FileWriter("employees.txt", StandardCharsets.UTF_8, false);
 
-			for (String name : names) {
+			for (String name : employees) {
 				output.write(String.format("%s\n", name));
 				System.out.println(name);
 			}
