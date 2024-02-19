@@ -6,12 +6,7 @@
 ### Kome je predmet namijenjen
 Ovaj predmet namijenjen je prvenstveno studentima programa Računari na master studijama Elektrotehničkog fakulteta u Podgorici, ali i svim ostalim zainteresovanim za objektno-orijentisani razvoj softvera.
 ### Ko je angažovan na predmetu
-#### Predavači:
-Prof. dr Slobodan Đukanović
-- kabinet: 322 (treći sprat)
-- mail: [slobdj@ucg.ac.me](slobdj@ucg.ac.me)
-- konsultacije: utorak, 14-16h
-
+#### Predavač:
 dr Stefan Vujović:
 - kabinet: Laboratorija za obradu signala
 - mail: [stefanv@ucg.ac.me](stefanv@ucg.ac.me)
