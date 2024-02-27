@@ -13,7 +13,7 @@ dr Stefan Vujović:
 - konsultacije: <u>po dogovoru</u>
 
 #### Saradnik:
-mr Slavko Kovačević:
+MSc Slavko Kovačević:
 - kabinet: Laboratorija za obradu signala
 - mail: [skovacevic@ucg.ac.me](skovacevic@ucg.ac.me)
 - konsultacije: <u>po dogovoru</u>
